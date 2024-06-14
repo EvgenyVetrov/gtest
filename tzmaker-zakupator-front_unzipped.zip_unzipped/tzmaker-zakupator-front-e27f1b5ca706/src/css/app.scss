@@ -1,0 +1,16 @@
+// app global css in SCSS form
+
+@font-face {
+  font-family: roboto-mono;
+  src: url(./fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+// declare a class which applies it
+.text-mono {
+  font-family: 'roboto-mono';
+}
+
+.width-200 {
+  min-width: 200px;
+  width: 200px;
+}
